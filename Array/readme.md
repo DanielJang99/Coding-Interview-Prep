@@ -1,4 +1,4 @@
-### Merge Meeting Times
+# Merge Meeting Times
 
 Write a function merge_ranges() that takes a list of multiple meeting time ranges and returns a list of condensed ranges. Each meeting is stored as a tuple of integers (start_time, end_time).
 
@@ -18,11 +18,11 @@ the function would return:
 
 **Write a solution that's efficient even when we can't put a nice upper bound on the numbers representing our time ranges.** The spirit of the challenge is to merge meetings where start_time and end_time don't have an upper bound.
 
-### Reverse String in Place
+# Reverse String in Place
 
 Write a function that takes a list of characters and reverses the letters in place.
 
-### Merge Sorted Arrays
+# Merge Sorted Arrays
 
 We are given two lists of integers sorted numerically already. Write a function to merge the lists of integers into one sorted list.
 
