@@ -35,3 +35,22 @@ alices_list = [1, 5, 8, 12, 14, 19]
 # Prints [1, 3, 4, 5, 6, 8, 10, 11, 12, 14, 15, 19]
 print(merge_lists(my_list, alices_list))
 ```
+
+# Reverse Words
+
+Write a function reverse_words() that takes a message as a list of characters and reverses the order of the words **in place**.
+
+For example:
+
+```
+message = [ 'c', 'a', 'k', 'e', ' ',
+            'p', 'o', 'u', 'n', 'd', ' ',
+            's', 't', 'e', 'a', 'l' ]
+
+reverse_words(message)
+
+# Prints: 'steal pound cake'
+print(''.join(message))
+```
+
+When writing your function, assume the message contains only letters and spaces, and all words are separated by one space.
