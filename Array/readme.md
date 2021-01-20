@@ -54,3 +54,34 @@ print(''.join(message))
 ```
 
 When writing your function, assume the message contains only letters and spaces, and all words are separated by one space.
+
+# Order Checker
+
+You are working at a cafe and given the following three lists:
+
+-   The take-out orders as they were entered into the system and given to the kitchen. (take_out_orders)
+-   The dine-in orders as they were entered into the system and given to the kitchen. (dine_in_orders)
+-   Each customer order (from either register) as it was finished by the kitchen. (served_orders)
+
+**Given all three lists, write a function to check that my service is first-come, first-served. All food should come out in the same order customers requested it.**
+
+We'll represent each customer order as a unique integer.
+
+As an example,
+
+```
+  Take Out Orders: [1, 3, 5]
+ Dine In Orders: [2, 4, 6]
+  Served Orders: [1, 2, 4, 6, 5, 3]
+```
+
+would not be first-come, first-served, since order 3 was requested before order 5 but order 5 was served first.
+
+However,
+
+```Take Out Orders: [17, 8, 24]
+ Dine In Orders: [12, 19, 2]
+  Served Orders: [17, 8, 12, 19, 24, 2]
+```
+
+would be first-come, first-served. Note that the numbers are arbitrary: they do not have to be in increasing order.

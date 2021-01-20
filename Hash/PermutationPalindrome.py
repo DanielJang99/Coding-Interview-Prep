@@ -5,15 +5,15 @@ def has_palindrome_permutation(the_string):
 
     # Check if any permutation of the input is a palindrome
 
-    list = []
+    str_set = set()
 
     for letter in the_string:
-        if (letter not in list):
-            list.append(letter)
+        if (letter not in str_set):
+            str_set.add(letter)
         else:
-            list.remove(letter)
+            str_set.remove(letter)
 
-    if len(list) > 1:
+    if len(str_set) > 1:
         return False 
 
     return True
