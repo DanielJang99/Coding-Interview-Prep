@@ -21,3 +21,9 @@ get_max_profit(stock_prices)
 ```
 
 No "shorting"—you need to buy before you can sell. Also, you can't buy and sell in the same time step—at least 1 minute has to pass.
+
+# Highest Product of 3
+
+Given a list of integers, find the highest product you can get from three of the integers.
+
+The input list_of_ints should always have at least three integers.
