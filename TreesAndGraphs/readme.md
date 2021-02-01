@@ -31,3 +31,7 @@ A binary search tree is a binary tree where the nodes are ordered in a specific 
 
 -   The nodes to the left are smaller than the current node.
 -   The nodes to the right are larger than the current node.
+
+# Second Largest Item
+
+Write a function to find the 2nd largest element in a **binary search tree**.
