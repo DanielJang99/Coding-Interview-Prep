@@ -35,3 +35,30 @@ A binary search tree is a binary tree where the nodes are ordered in a specific 
 # Second Largest Item
 
 Write a function to find the 2nd largest element in a **binary search tree**.
+
+# Graph Coloring
+
+Given an undirected graph with maximum degree D, find a graph coloring using at most D+1 colors.
+
+Graphs are represented by a list of N node objects, each with a label, a set of neighbors, and a color:
+
+```
+class GraphNode:
+
+    def __init__(self, label):
+        self.label = label
+        self.neighbors = set()
+        self.color = None
+
+
+a = GraphNode('a')
+b = GraphNode('b')
+c = GraphNode('c')
+
+a.neighbors.add(b)
+b.neighbors.add(a)
+b.neighbors.add(c)
+c.neighbors.add(b)
+
+graph = [a, b, c]
+```
