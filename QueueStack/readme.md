@@ -34,3 +34,11 @@ class Stack(object):
 Use your Stack class to **implement a new class MaxStack with a method get_max() that returns the largest element in the stack.** get_max() should not remove the item.
 
 Your stacks will contain only integers. You should be able to get a runtime of O(1) for push(), pop(), and get_max().
+
+# Queue with 2 Stacks
+
+Implement a queue with 2 stacks. Your queue should have an enqueue and a dequeue method and it should be "first in first out" (FIFO).
+
+Optimize for the time cost of mm calls on your queue. These can be any mix of enqueue and dequeue calls.
+
+Assume you already have a stack implementation and it gives O(1) time push and pop.
