@@ -42,3 +42,13 @@ Implement a queue with 2 stacks. Your queue should have an enqueue and a dequeue
 Optimize for the time cost of mm calls on your queue. These can be any mix of enqueue and dequeue calls.
 
 Assume you already have a stack implementation and it gives O(1) time push and pop.
+
+# Paranthesis Matching
+
+I like parentheticals (a lot).
+
+"Sometimes (when I nest them (my parentheticals) too much (like this (and this))) they get confusing."
+
+Write a function that, given a sentence like the one above, along with the position of an opening parenthesis, finds the corresponding closing parenthesis.
+
+Example: if the example string above is input with the number 10 (position of the first parenthesis), the output should be 79 (position of the last parenthesis).
