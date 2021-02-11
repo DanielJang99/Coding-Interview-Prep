@@ -52,3 +52,17 @@ I like parentheticals (a lot).
 Write a function that, given a sentence like the one above, along with the position of an opening parenthesis, finds the corresponding closing parenthesis.
 
 Example: if the example string above is input with the number 10 (position of the first parenthesis), the output should be 79 (position of the last parenthesis).
+
+# Bracket Validator
+
+Let's say:
+
+-   '(', '{', '[' are called "openers"
+-   ')', '}', ']' are called "closers"
+
+Write an efficient function that tells us whether or not an input string's openers and closers are properly nested.
+Examples:
+
+-   "{ [ ]() }" should return True
+-   "{ [ ( ] ) }" should return False
+-   "{ [ }" should return False
