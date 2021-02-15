@@ -34,3 +34,11 @@ A cycle occurs when a node’s next points back to a previous node in the list. 
 Write a function contains_cycle() that takes the first node in a singly-linked list and returns a boolean indicating whether the list contains a cycle.
 
 We can do this in O(n)O(n) time and O(1)O(1) space!
+
+# Reverse a linked list
+
+Write a function for reversing a linked list. Do it in place.
+
+Your function will have one input: the head of the list.
+
+Your function should return the new head of the list.
